@@ -374,6 +374,12 @@ body {
   + .taxonomy__section {
     margin-top: 2em;
   }
+
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
 }
 
 .taxonomy__title {

@@ -29,6 +29,12 @@
   a[rel="permalink"] {
     position: static;
   }
+
+  .flex-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
 }
 
 .archive__subtitle {
@@ -42,6 +48,8 @@
   + .list__item .archive__item-title {
     margin-top: 0.5em;
   }
+
+  
 }
 
 .archive__item-title {
