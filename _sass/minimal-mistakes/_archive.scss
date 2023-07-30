@@ -63,6 +63,12 @@
   a + a {
     opacity: 0.5;
   }
+
+  &.child_a_22px {
+    a {
+      font-size: 22px;
+    }
+  }
 }
 
 /* remove border*/
