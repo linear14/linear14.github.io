@@ -17,12 +17,13 @@
         <img src="{{ teaser | relative_url }}" alt="">
       </div>
     {% endif %} -->
-    <div class="flex-box">
+    <div class="flex-box" style="position: relative;">
       <span>
         {% if post.date %}
-          <p class="page__meta__main-custom page__meta">{{ post.date | date: "%B %d, %Y" }}</p>
+          <p class="page__meta__main-custom page__meta" style="margin: 0; font-size: 12px; color: slategray;">{{ post.date | date: "%B %d, %Y" }}</p>
         {% endif %}
       </span>
+      <div style="width: 1.5px; height: 18px; background-color: #dddddd;"></div>
       <span>
         {% if post.link %}
           <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>

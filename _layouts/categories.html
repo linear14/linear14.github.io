@@ -11,7 +11,7 @@ layout: archive
   {% endif %}
 {% endfor %}
 
-<ul class="taxonomy__index">
+<ul class="taxonomy__index" style="margin-bottom: 48px;">
   {% for i in (1..categories_max) reversed %}
     {% for category in site.categories %}
       {% if category[1].size == i %}
@@ -30,8 +30,8 @@ layout: archive
   {% for category in site.categories %}
     {% if category[1].size == i %}
       <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
-        <h2 class="archive__subtitle">{{ category[0] }}</h2>
-        <div class="entries-{{ entries_layout }} flex-column">
+        <h2 class="archive__subtitle" style="font-weight: bold; background-color: #888888; color: white; display: inline; padding: 8px 12px;">{{ category[0] }}</h2>
+        <div class="entries-{{ entries_layout }} flex-column" style="margin-top: 16px">
           {% for post in category.last %}
             {% include archive-single-category.html type=entries_layout %}
           {% endfor %}
