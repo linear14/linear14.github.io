@@ -54,7 +54,9 @@ const securityHeaders = [
   },
 ]
 
-const output = process.env.EXPORT ? 'export' : undefined
+// 나중에 환경변수 필요하면 넣어주자. (지금은 왜 쓰는건지 모르겠음)
+// const output = process.env.EXPORT ? 'export' : undefined
+const output = 'export'
 const basePath = process.env.BASE_PATH || undefined
 const unoptimized = process.env.UNOPTIMIZED ? true : undefined
 
