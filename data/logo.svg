@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54" height="54" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 원 -->
+  <circle cx="100" cy="100" r="90" fill="#1a1a1a"/>
+  
+  <!-- 코드 괄호 -->
+  <path d="M70 60 L50 100 L70 140" stroke="#4CAF50" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M130 60 L150 100 L130 140" stroke="#4CAF50" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- 불꽃 효과 -->
+  <path d="M100 40 Q120 60 100 80 Q80 60 100 40" fill="#FF5722"/>
+  <path d="M100 80 Q120 100 100 120 Q80 100 100 80" fill="#FF9800"/>
+  <path d="M100 120 Q120 140 100 160 Q80 140 100 120" fill="#FFC107"/>
+  
+  <!-- 코드 라인 -->
+  <line x1="80" y1="100" x2="120" y2="100" stroke="#4CAF50" stroke-width="4"/>
+  <line x1="90" y1="85" x2="110" y2="85" stroke="#4CAF50" stroke-width="4"/>
+  <line x1="85" y1="115" x2="115" y2="115" stroke="#4CAF50" stroke-width="4"/>
+</svg>
